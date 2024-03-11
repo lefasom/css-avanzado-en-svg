@@ -1,0 +1,25 @@
+body {
+  background-color: black;
+}
+
+.container {
+  position: relative;
+}
+
+.container .SVG {
+  position: absolute;
+  margin: auto;
+  scale: 1.7;
+  inset: 0;
+  top: 100px;
+}
+
+.container .SVG2 {
+  position: absolute;
+  margin: auto;
+  scale: 1.7;
+  inset: 0;
+  top: 100px;
+  z-index: -1;
+  filter: blur(1px);
+}
